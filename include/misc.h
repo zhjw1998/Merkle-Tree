@@ -19,5 +19,4 @@ inline void printNodeHashes(std::vector<Node*> v) {
         std::cout << v[a]->hash << std::endl;
     }
 }
-
 #endif /* MISC_H */
