@@ -32,8 +32,6 @@ public:
 	void PreOrderTraverse();
 	void PostOrderTraverse();
 	
-	//Remove还没看懂
-	
 private:
 	void printTree(Node *n, int indent);
 	std::vector<Node*> getLeaves(); // 获取叶节点的列表
